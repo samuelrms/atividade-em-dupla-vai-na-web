@@ -56,7 +56,7 @@
 
 ### `git checkout "NOME DA BRANCH CRIADA"`
 
-### Estou utilizando a branch developer
+### `Estou utilizando a branch developer`
 
 ---
 

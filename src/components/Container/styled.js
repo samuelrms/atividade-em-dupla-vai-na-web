@@ -5,4 +5,5 @@ export const ContainerDefault = styled.div`
   height: ${({ height }) => height};
   margin: ${({ margin }) => margin};
   background: ${({ background }) => background};
+  padding: ${({ padding }) => padding};
 `;

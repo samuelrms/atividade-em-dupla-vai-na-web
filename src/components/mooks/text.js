@@ -1,12 +1,22 @@
+import pizza from "../../assets/desktop/pizza.png";
+import bolo from "../../assets/desktop/bolo.png";
+import leite from "../../assets/desktop/leite.png";
+import colherComSal from "../../assets/desktop/colherComSal.png";
+
 export const text = {
   titlePage: "RECIPES",
   navegation: ["ABOUT", "RECIPES", "SUBSCRIBE"],
   recipes: {
-    title: "Latest Recipes",
-    contentTitle: ["Latest Recipes", "Margherita Pizza", "Peanut Smoothie"],
+    title: "LATEST RECIPES",
+    contentCard: {
+      contentTitle: ["Latest Recipes", "Margherita Pizza", "Peanut Smoothie"],
+      contentImages: [bolo, pizza, leite],
+    },
   },
   info: {
-    title: "Peanut Smoothie",
+    title: "ABOUT",
+    imageInfo: colherComSal,
+    imageInfoAlt: "Colher com sal do Himalaia",
     desciption:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, tortor nec rhoncus dictum, lorem massa tempus sem, eu tincidunt libero velit sit amet velit. Nunc in euismod urna. Duis dapibus, elit eu eleifend tincidunt, nulla ipsum consectetur lorem, quis tempor lorem justo quis nisi. Nam interdum, nisi nec mollis sagittis, enim risus euismod nisi, quis rutrum quam augue id mauris. Pellentesque mattis hendrerit semper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut vestibulum nisl ante, et ultricies sapien facilisis aliquam.",
   },

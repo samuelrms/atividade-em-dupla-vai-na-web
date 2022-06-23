@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
-export const DefaultTitle = styled.h1`
+export const ImgDefault = styled.img`
+  background-size: ${({ backgroundSize }) => backgroundSize};
   font-size: ${({ fontSize }) => fontSize};
   color: ${({ color }) => color};
   margin: ${({ margin }) => margin};
@@ -9,10 +10,7 @@ export const DefaultTitle = styled.h1`
   background: ${({ background }) => background};
   border: ${({ border }) => border};
   border-radius: ${({ borderRadius }) => borderRadius};
-  font-weight: ${({ fontWeight }) => fontWeight};
   width: ${({ width }) => width};
+  height: ${({ height }) => height};
+  background-size: cover;
 `;
-
-DefaultTitle.defaultProps = {
-  color: "#1d1d1d",
-};

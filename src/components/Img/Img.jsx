@@ -1,8 +1,7 @@
 import React from "react";
-import { DefaultTitle } from "./styled";
+import { ImgDefault } from "./styled";
 
-const Title = ({
-  children,
+const Img = ({
   fontSize,
   color,
   margin,
@@ -11,12 +10,18 @@ const Title = ({
   background,
   borderRadius,
   border,
-  fontWeight,
+  backgroundSize,
+  alt,
+  src,
   width,
+  height,
   ...restProps
 }) => {
   return (
-    <DefaultTitle
+    <ImgDefault
+      src={src}
+      alt={alt}
+      backgroundSize={backgroundSize}
       fontSize={fontSize}
       margin={margin}
       color={color}
@@ -25,13 +30,11 @@ const Title = ({
       background={background}
       borderRadius={borderRadius}
       border={border}
-      fontWeight={fontWeight}
       width={width}
+      height={height}
       {...restProps}
-    >
-      {children}
-    </DefaultTitle>
+    />
   );
 };
 
-export default Title;
+export default Img;

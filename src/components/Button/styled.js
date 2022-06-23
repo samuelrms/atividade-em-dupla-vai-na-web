@@ -20,6 +20,8 @@ export const ButtonDefault = styled.button`
 
   :hover {
     background: ${({ hoverBackground }) => hoverBackground};
+    border: ${({ hoverBoder }) => hoverBoder};
+    color: ${({ hoverColor }) => hoverColor};
   }
 
   @media (max-width: 768px) {
@@ -36,11 +38,11 @@ export const ButtonDefault = styled.button`
 `;
 
 ButtonDefault.defaultProps = {
-  width: "100%",
-  height: "100%",
-  color: "#fff",
-  background: "#000",
-  bordeRadius: "5px",
+  width: "",
+  height: "",
+  color: "#000",
+  background: "",
+  bordeRadius: "",
   border: "none",
   cursor: "pointer",
   padding: "",

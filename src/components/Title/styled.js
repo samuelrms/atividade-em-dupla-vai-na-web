@@ -11,6 +11,7 @@ export const DefaultTitle = styled.h1`
   border-radius: ${({ borderRadius }) => borderRadius};
   font-weight: ${({ fontWeight }) => fontWeight};
   width: ${({ width }) => width};
+  letter-spacing: ${({ letterSpacing }) => letterSpacing};
 `;
 
 DefaultTitle.defaultProps = {

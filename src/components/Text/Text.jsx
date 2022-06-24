@@ -11,14 +11,14 @@ const Text = ({
   background,
   borderRadius,
   border,
+  fontWeight,
   width,
-  textAlign,
+  letterSpacing,
   ...restProps
 }) => {
   return (
     <TextDefault
-      textAlign={textAlign}
-      width={width}
+      letterSpacing={letterSpacing}
       fontSize={fontSize}
       margin={margin}
       color={color}
@@ -27,6 +27,8 @@ const Text = ({
       background={background}
       borderRadius={borderRadius}
       border={border}
+      fontWeight={fontWeight}
+      width={width}
       {...restProps}
     >
       {children}

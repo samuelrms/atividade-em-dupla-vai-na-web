@@ -11,10 +11,14 @@ const SubTitle = ({
   background,
   borderRadius,
   border,
+  fontWeight,
+  width,
+  letterSpacing,
   ...restProps
 }) => {
   return (
     <SubTitleDefault
+      letterSpacing={letterSpacing}
       fontSize={fontSize}
       margin={margin}
       color={color}
@@ -23,6 +27,8 @@ const SubTitle = ({
       background={background}
       borderRadius={borderRadius}
       border={border}
+      fontWeight={fontWeight}
+      width={width}
       {...restProps}
     >
       {children}

@@ -9,6 +9,7 @@ export const TextDefault = styled.p`
   background: ${({ background }) => background};
   border: ${({ border }) => border};
   border-radius: ${({ borderRadius }) => borderRadius};
+  font-weight: ${({ fontWeight }) => fontWeight};
   width: ${({ width }) => width};
-  text-align: ${({ textAlign }) => textAlign};
+  letter-spacing: ${({ letterSpacing }) => letterSpacing};
 `;

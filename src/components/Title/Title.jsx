@@ -13,10 +13,12 @@ const Title = ({
   border,
   fontWeight,
   width,
+  letterSpacing,
   ...restProps
 }) => {
   return (
     <DefaultTitle
+      letterSpacing={letterSpacing}
       fontSize={fontSize}
       margin={margin}
       color={color}

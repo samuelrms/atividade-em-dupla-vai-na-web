@@ -6,10 +6,11 @@ import Button from "../Button";
 import Img from "./../Img";
 import Title from "../Title";
 import Container from "../Container";
+import { colors } from "./../../styles/colors";
 
 const Header = () => {
   return (
-    <Container background="#FFFFFF" padding="0 0 35px">
+    <Container background={colors.background.header} padding="0 0 35px">
       <HeaderContainer>
         <Navegation>
           <Img
@@ -17,15 +18,16 @@ const Header = () => {
             height="61px"
             margin="0 0 0 63px"
             src={RC}
-            alt="Logo da pagina"
+            alt={text.altImageLogo}
           />
           <MenuList>
-            {text.navegation.map((children) => (
+            {text.navegation.map((children, index) => (
               <Button
+                key={index}
                 width="14vw"
                 background="none"
                 height="61px"
-                hoverBoder=" 5px solid #373737"
+                hoverBoder={colors.background.hoverButton}
               >
                 {children}
               </Button>
@@ -33,12 +35,13 @@ const Header = () => {
           </MenuList>
         </Navegation>
         <Title
+          letterSpacing="4.2px"
           margin="275px auto auto"
           width="auto"
-          fontWeight="600"
+          fontWeight="200"
           children={text.titlePage}
           fontSize="9.375rem"
-          color="#373737"
+          color={colors.primaryColors.text}
         />
       </HeaderContainer>
     </Container>

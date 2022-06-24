@@ -6,11 +6,17 @@ import colherComSal from "../../assets/desktop/colherComSal.png";
 export const text = {
   titlePage: "RECIPES",
   navegation: ["ABOUT", "RECIPES", "SUBSCRIBE"],
+  altImageLogo: "RC, logo da pagina",
   recipes: {
     title: "LATEST RECIPES",
     contentCard: {
       contentTitle: ["Latest Recipes", "Margherita Pizza", "Peanut Smoothie"],
       contentImages: [bolo, pizza, leite],
+      contentAltImages: [
+        "Bolo de morango, sob prato branco, com um pedaço cortado, chantily por cima recheio de creme e morango por cima",
+        "Pizza de marguerita, com queijo em alguns locais levemente tostado",
+        "Dois copos de vidro com algo que parece ser uma vitamina de banana e uma colher prata com manteiga de amendoim ao lado",
+      ],
     },
   },
   info: {
@@ -23,7 +29,7 @@ export const text = {
   contact: {
     title: "SUBSCRIBE",
     subTitle: "Sign up for newsletter",
-    labelInput: "Sign up for newsletter",
+    labelInput: "Your Email",
     submit: "SUBMIT",
   },
   footer: {

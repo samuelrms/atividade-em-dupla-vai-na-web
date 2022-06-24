@@ -9,6 +9,9 @@ export const SubTitleDefault = styled.h2`
   background: ${({ background }) => background};
   border: ${({ border }) => border};
   border-radius: ${({ borderRadius }) => borderRadius};
+  font-weight: ${({ fontWeight }) => fontWeight};
+  width: ${({ width }) => width};
+  letter-spacing: ${({ letterSpacing }) => letterSpacing};
 `;
 
 SubTitleDefault.defaultProps = {

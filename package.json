@@ -18,6 +18,7 @@
   "scripts": {
     "git-env-gh": "yarn add --dev gh-pages && ./node_modules/.bin/gh-pages -d build",
     "git-env-repo": "yarn build && git push origin main",
+    "build-page": "yarn git-env-gh && yarn git-env-repo",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

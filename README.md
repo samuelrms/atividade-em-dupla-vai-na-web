@@ -1,10 +1,10 @@
 # Link da page
 
-### https://samuelrms.github.io/atividade-em-dupla-vai-na-web/
+### <a href="https://samuelrms.github.io/atividade-em-dupla-vai-na-web/"> Page <a/>
 
 # Link do Figma
 
-### https://xd.adobe.com/view/e048e30a-811b-49f2-a92f-1af9a2985abd-b51b/specs/
+### <a href="https://xd.adobe.com/view/e048e30a-811b-49f2-a92f-1af9a2985abd-b51b/specs/">  AdobeXD </a>
 
 ## Fork no repositório
 

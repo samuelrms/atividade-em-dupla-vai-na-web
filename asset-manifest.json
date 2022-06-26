@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/atividade-em-dupla-vai-na-web/static/js/main.d54f04c0.js",
+    "main.js": "/atividade-em-dupla-vai-na-web/static/js/main.748f79b7.js",
     "static/media/headerbackground.png": "/atividade-em-dupla-vai-na-web/static/media/headerbackground.7417fae2c0eebf74b629.png",
     "static/media/colherComSal.png": "/atividade-em-dupla-vai-na-web/static/media/colherComSal.054c6b97dc4435872d98.png",
     "static/media/bolo.png": "/atividade-em-dupla-vai-na-web/static/media/bolo.6cf44c8d7f5868bef2f1.png",
@@ -12,9 +12,9 @@
     "index.html": "/atividade-em-dupla-vai-na-web/index.html",
     "static/media/facebook.svg": "/atividade-em-dupla-vai-na-web/static/media/facebook.f7edc4fd294f34d7d29a83724e624fcb.svg",
     "static/media/RC.svg": "/atividade-em-dupla-vai-na-web/static/media/RC.c3d0edd8ec33e24df2c55aa980800127.svg",
-    "main.d54f04c0.js.map": "/atividade-em-dupla-vai-na-web/static/js/main.d54f04c0.js.map"
+    "main.748f79b7.js.map": "/atividade-em-dupla-vai-na-web/static/js/main.748f79b7.js.map"
   },
   "entrypoints": [
-    "static/js/main.d54f04c0.js"
+    "static/js/main.748f79b7.js"
   ]
 }

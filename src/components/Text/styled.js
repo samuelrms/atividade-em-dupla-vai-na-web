@@ -12,4 +12,5 @@ export const TextDefault = styled.p`
   font-weight: ${({ fontWeight }) => fontWeight};
   width: ${({ width }) => width};
   letter-spacing: ${({ letterSpacing }) => letterSpacing};
+  text-align: ${({ textAlign }) => textAlign};
 `;

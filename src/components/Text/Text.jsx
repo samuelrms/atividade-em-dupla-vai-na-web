@@ -14,11 +14,13 @@ const Text = ({
   fontWeight,
   width,
   letterSpacing,
+  textAlign,
   ...restProps
 }) => {
   return (
     <TextDefault
       letterSpacing={letterSpacing}
+      textAlign={textAlign}
       fontSize={fontSize}
       margin={margin}
       color={color}

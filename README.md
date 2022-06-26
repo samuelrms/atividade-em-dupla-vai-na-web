@@ -1,10 +1,10 @@
 # Link da page
 
-### <a href="https://samuelrms.github.io/atividade-em-dupla-vai-na-web/"> Page <a/>
+### <a href="https://samuelrms.github.io/atividade-em-dupla-vai-na-web/" target="_blank" > Page <a/>
 
 # Link do AdobeXD
 
-### <a href="https://xd.adobe.com/view/e048e30a-811b-49f2-a92f-1af9a2985abd-b51b/specs/"> AdobeXD </a>
+### <a href="https://xd.adobe.com/view/e048e30a-811b-49f2-a92f-1af9a2985abd-b51b/specs/" target="_blank"> AdobeXD </a>
 
 ## Fork no repositório
 
